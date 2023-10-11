@@ -14,6 +14,6 @@ use App\Http\Controllers\Admin\Properties;
 */
 
 
-Route::resource('', Properties::class);
+Route::get('/', [Properties::class,'index']);
 Route::resource('admin/properties', Properties::class);
 Route::get('admin/propertie/destroy/{id}', [Properties::class,'destroy'])->name('destroy');

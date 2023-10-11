@@ -65,11 +65,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-#Laravel Setup
-Step 1 - connect database
-Step 2 - install packages
-    - composer install
-Step 3 - create database table 
-    - php artisan serve migarte
-Step 4 - run crone job 
-    - php artisan schedule:run
+## Laravel Setup
+## Step 1 - connect database
+## Step 2 - install packages
+    composer install
+## Step 3 - create database table 
+    php artisan migrate
+## Step 4 - run crone job 
+    php artisan schedule:run
