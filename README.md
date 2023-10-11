@@ -73,3 +73,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     php artisan migrate
 ## Step 4 - run crone job 
     php artisan schedule:run
+
