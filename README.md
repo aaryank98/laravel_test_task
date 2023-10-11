@@ -70,6 +70,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Step 2 - install packages
     composer install
 ## Step 3 - create database table 
-    php artisan serve migarte
+    php artisan migrate
 ## Step 4 - run crone job 
     php artisan schedule:run
